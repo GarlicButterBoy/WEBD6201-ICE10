@@ -1,12 +1,6 @@
 "use strict";
-let mongoDBPath = "mongodb://localhost/webd6201";
-let sessionSecret = "someSecret";
-function myFunction() {
-    console.log("This doesn't do anything");
-}
-module.exports = {
-    Path: mongoDBPath,
-    Secret: sessionSecret,
-    Nothing: myFunction
-};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Secret = exports.Path = void 0;
+exports.Path = "mongodb://localhost/webd6201";
+exports.Secret = "someSecret";
 //# sourceMappingURL=db.js.map
